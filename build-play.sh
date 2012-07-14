@@ -1,9 +1,9 @@
-#/bin/bash
+#/bin/sh
 
 set -e
 
 SCALA_VERSION_DIFF=2.10.0-virtualized-SNAPSHOT
-SCALA_VERSION_WANTED=2.10.0-M2-0020-geab3b7e4d7-2012-07-12
+SCALA_VERSION_WANTED=$SCALA_VIRTUALIZED_VERSION
 
 alias sbt="sbt @`pwd`/sbt.boot.properties"
 
