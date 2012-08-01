@@ -14,5 +14,14 @@ and the [js.scala samples](http://github.com/js-scala/samples).
    which versions you have locally released with the command
    * `ls -t1 ~/.m2/repository/org/scala-lang/scala-compiler | egrep -v xml`
 
-3. Run `./build-play.sh`.
+3. In order for your locally deployed Scala to be found by SBT, you
+   might need to add `maven-local` to `~/.sbt/repositories`. If this
+   file doesn't exist, create it with the content:
+
+```
+[repositories]
+maven-local
+```
+
+4. Run `./build-play.sh`.
   * In case of problems with sbt's compiler interface, run this [script](https://gist.github.com/1643715).
