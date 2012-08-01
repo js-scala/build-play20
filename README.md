@@ -18,10 +18,10 @@ and the [js.scala samples](http://github.com/js-scala/samples).
    might need to add `maven-local` to `~/.sbt/repositories`. If this
    file doesn't exist, create it with the content:
 
-```
-[repositories]
-maven-local
-```
+   ```
+   [repositories]
+   maven-local
+   ```
 
 4. Run `./build-play.sh`.
   * In case of problems with sbt's compiler interface, run this [script](https://gist.github.com/1643715).
