@@ -1,3 +1,15 @@
+diff --git a/framework/build b/framework/build
+index 76d8f19..abf5d42 100755
+--- a/framework/build
++++ b/framework/build
+@@ -1,6 +1,6 @@
+ #! /usr/bin/env sh
+ 
+-PLAY_VERSION="2.0-SNAPSHOT"
++PLAY_VERSION="2.0.2-virtualized"
+ 
+ if [ -z "${JPDA_PORT}" ]; then
+   DEBUG_PARAM=""
 diff --git a/framework/project/Build.scala b/framework/project/Build.scala
 index c33fda5..5a074b3 100644
 --- a/framework/project/Build.scala
